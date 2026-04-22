@@ -1,4 +1,5 @@
-import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+
 import Home from "./pages/home/Home";
 import Customers from "./pages/customers/Customers"
 import Product from "./pages/product/Product"
@@ -52,11 +53,14 @@ const router = createBrowserRouter([
 ])
 
 function App() {
-  return <div className='app'>
+  return ( 
+    <Router>
+  <div className='app'>
     <RouterProvider router={router}/>
   </div>
+  </Router>
 
-   
+  ) 
 }
 
 export default App;
