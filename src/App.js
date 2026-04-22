@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch } from "react-router-dom";
+
 import Home from "./pages/home/Home";
 import Customers from "./pages/customers/Customers"
 import Product from "./pages/product/Product"
