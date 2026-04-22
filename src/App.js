@@ -1,68 +1,55 @@
 import React from "react";
-import ReactDom from "react-dom/client";
-import { createBrowserRouter,  RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./pages/home/Home";
-import Customers from "./pages/customers/Customers"
-import Product from "./pages/product/Product"
-import New from "./pages/new/New"
-import Single from "./pages/single/Single"
+import Customers from "./pages/customers/Customers";
+import Product from "./pages/product/Product";
+import New from "./pages/new/New";
+import Single from "./pages/single/Single";
+import Login from "./pages/login/Login";
+import Register from "./pages/register/Register";
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>
   },
-
-   {
-    path: "/customers/",
+  {
+    path: "/customers",
     element: <Customers/>
   },
-
-   {
+  {
     path: "/products",
     element: <Product/>
   },
-
-   {
-    path: "/product/:Product/new",
+  {
+    path: "/products/new",
     element: <New/>
   },
-
   {
-    path: "/customers/:customerId/new",
-    element: <New/>
-  },
-
-   {
-    path: "/customers/:CustomersId",
+    path: "/customers/:customerId",
     element: <Single/>
   },
-
-    {
-    path: "/products/:ProductId",
+  {
+    path: "/products/:productId",
     element: <Single/>
   },
-
   {
-    path: "/login/",
+    path: "/login",
     element: <Login/>
   },
-
   {
-    path: "/products",
+    path: "/register",
     element: <Register/>
   }
-])
+]);
 
 function App() {
-  return ( 
-    <Router>
-  <div className='app'>
-    <RouterProvider router={router}/>
-  </div>
-  </Router>
-
-  ) 
+  return (
+    <div className='app'>
+      <RouterProvider router={router}/>
+    </div>
+  );
 }
 
 export default App;
