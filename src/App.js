@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import React from "react";
+import ReactDom from "react-dom/client";
+import { createBrowserRouter,  RouterProvider } from "react-router-dom";
 
 import Home from "./pages/home/Home";
 import Customers from "./pages/customers/Customers"
@@ -38,7 +40,7 @@ const router = createBrowserRouter([
 
     {
     path: "/products/:ProductId",
-    element: <Sngle/>
+    element: <Single/>
   },
 
   {
