@@ -1,18 +1,20 @@
 import React, { Component } from 'react'
 
 import "./home.scss"
+
 import Sidebar from '../../components/sidebar/Sidebar'
-// import Navbar  from '../../Components/navbar/Navbar'
+
+ import Navbar  from '../../components/navbar/Navbar'
 
 const Home = () => {
   return (
     <div className='home'>
       <Sidebar />
       
-      {/* <div className="homecontainer">
+     <div className="homecontainer">
         <Navbar />
 
-      </div> */}
+      </div> 
     </div>
   )
 }
