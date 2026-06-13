@@ -6,6 +6,8 @@ import Sidebar from '../../components/sidebar/Sidebar'
 
  import Navbar  from '../../components/navbar/Navbar'
 
+ import Widget from '../../components/widget/Widget'
+
 const Home = () => {
   return (
     <div className='home'>
@@ -13,6 +15,12 @@ const Home = () => {
       
      <div className="homecontainer">
         <Navbar />
+     <div className="widget">
+        <Widget />
+         <Widget />
+          <Widget />
+           <Widget />
+        </div>
 
       </div> 
     </div>
