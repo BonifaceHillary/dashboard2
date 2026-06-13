@@ -48,8 +48,11 @@ const Navbar = () => {
           </div>
           <div className="item">
             <ListOutlinedIcon className='icon'/>
-
           </div>
+          <div className="item">
+            <img src="./assets/image1.jpg" alt="" className='profileimg' />
+          </div>
+
         </div>
       </div>
     </div>
