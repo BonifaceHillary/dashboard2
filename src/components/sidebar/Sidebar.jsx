@@ -84,21 +84,7 @@ const Sidebar = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
          <p className="title">USER INTERFACE</p>
-        {/* <li>
-          < DashboardIcon className='icon' />
-          <span>Dashboard</span>
-        </li> */}
 
 
          <li>
