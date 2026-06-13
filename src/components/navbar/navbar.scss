@@ -13,5 +13,27 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+
+    .search{
+      display: flex;
+      width: 30%;
+      align-items: center;
+      padding: 3px;
+      border: 0.4px solid lightgray;
+
+
+      input{
+        width: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+
+
+        &::placeholder{
+          font-size: 12px;
+          padding-left: 4px;
+        }
+      }
+    }
   }
 }     
