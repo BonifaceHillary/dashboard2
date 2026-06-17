@@ -4,10 +4,6 @@ import "./featured.scss"
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 
-// import { CircularProgress } from '@mui/material';
-
-// import { Box, Typography, LinearProgress } from '@mui/material';
-
 
 import CircularProgress from '@mui/material/CircularProgress';
 
@@ -62,36 +58,6 @@ const Featured = () => {
 
 
 
-
-
-// <div className='featured'>
-//   <div className="top">
-//     <h1 className="title">Total Revenue</h1>
-//     <MoreVertIcon fontSize="small" />
-//   </div>
-
-//   <div className="bottom">
-//     <div className="featuredChart">
-//       <div style={{ position: "relative", display: "inline-flex" }}>
-//         <CircularProgress
-//           variant="determinate"
-//           value={70}
-//           size={120}
-//         />
-//         <Typography
-//           sx={{
-//             position: "absolute",
-//             top: "50%",
-//             left: "50%",
-//             transform: "translate(-50%, -50%)",
-//           }}
-//         >
-//           70%
-//         </Typography>
-//       </div>
-//     </div>
-//   </div>
-// </div>
 
 
 
